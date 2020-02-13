@@ -1,0 +1,24 @@
+input[type=button] {
+    width: 50px;
+    height: 30px;
+    background-color: palevioletred;
+    color: purple;
+    border: solid violet 1.5px;
+}
+
+.campoInput{
+    width: 220px;
+    height: 30px;
+    background-color: violet;
+    color: purple;
+    border: solid violet 3px;
+}
+
+body{
+    background-color: rgb(233, 190, 227);
+}
+
+.divCentral{
+    margin-left: 40%;
+     margin-top: 10%;
+}
