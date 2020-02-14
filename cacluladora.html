@@ -9,38 +9,39 @@
 
 </head>
 <body>
+    <h1>Calculadora</h1>
     <div class="divCentral">
         <input type="text" id="resultado" class="campoInput"/>
         <table> 
             <tr>
-                <td><input type="button" value="C" onclick="apaga()"></td>
-                <td><input type="button" value="%" onclick="valores('%')"></td>
+                <td><input type="button" value="C" onclick="limparCampo()"></td>
+                <td><input type="button" value="%" onclick="obterTeclaDigitada('%')"></td>
                 <td><input type="button" value="" onclick="mensagemEscondida()"></td>
                 <td><input type="button" value="" onclick="mensagemEscondida()"></td>
             </tr>
             <tr>
-                <td><input type="button" value="7" onclick="valores('7')"></td>
-                <td><input type="button" value="8" onclick="valores('8')"></td>
-                <td><input type="button" value="9" onclick="valores('9')"></td>
-                <td><input type="button" value="+" onclick="valores('+')"></td>
+                <td><input type="button" value="7" onclick="obterTeclaDigitada('7')"></td>
+                <td><input type="button" value="8" onclick="obterTeclaDigitada('8')"></td>
+                <td><input type="button" value="9" onclick="obterTeclaDigitada('9')"></td>
+                <td><input type="button" value="+" onclick="obterTeclaDigitada('+')"></td>
             </tr>
             <tr>
-                <td><input type="button" value="4" onclick="valores('4')"></td>
-                <td><input type="button" value="5" onclick="valores('5')"></td>
-                <td><input type="button" value="6" onclick="valores('6')"></td>
-                <td><input type="button" value="-" onclick="valores('-')"></td>
+                <td><input type="button" value="4" onclick="obterTeclaDigitada('4')"></td>
+                <td><input type="button" value="5" onclick="obterTeclaDigitada('5')"></td>
+                <td><input type="button" value="6" onclick="obterTeclaDigitada('6')"></td>
+                <td><input type="button" value="-" onclick="obterTeclaDigitada('-')"></td>
             </tr>
             <tr>
-                <td><input type="button" value="1" onclick="valores('1')"></td>
-                <td><input type="button" value="2" onclick="valores('2')"></td>
-                <td><input type="button" value="3" onclick="valores('3')"></td>
-                <td><input type="button" value="*" onclick="valores('*')"></td>
+                <td><input type="button" value="1" onclick="obterTeclaDigitada('1')"></td>
+                <td><input type="button" value="2" onclick="obterTeclaDigitada('2')"></td>
+                <td><input type="button" value="3" onclick="obterTeclaDigitada('3')"></td>
+                <td><input type="button" value="*" onclick="obterTeclaDigitada('*')"></td>
             </tr>
             <tr>
-                <td><input type="button" value="0" onclick="valores('0')"></td>
-                <td><input type="button" value="." onclick="valores('.')"></td>
-                <td><input type="button" value="=" onclick="calculo()"   ></td>
-                <td><input type="button" value="/" onclick="valores('/')"></td>
+                <td><input type="button" value="0" onclick="obterTeclaDigitada('0')"></td>
+                <td><input type="button" value="." onclick="obterTeclaDigitada('.')"></td>
+                <td><input type="button" value="=" onclick="calcularResultado()"   ></td>
+                <td><input type="button" value="/" onclick="obterTeclaDigitada('/')"></td>
             </tr>
 
         </table>

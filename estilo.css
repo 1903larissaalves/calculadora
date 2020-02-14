@@ -1,16 +1,12 @@
 input[type=button] {
     width: 50px;
     height: 30px;
-    background-color: palevioletred;
-    color: purple;
     border: solid violet 1.5px;
 }
 
 .campoInput{
-    width: 220px;
+    width: 217px;
     height: 30px;
-    background-color: violet;
-    color: purple;
     border: solid violet 3px;
 }
 
@@ -20,5 +16,10 @@ body{
 
 .divCentral{
     margin-left: 40%;
-     margin-top: 10%;
+    margin-top: 5%;
+}
+h1{
+    margin-top: 2%;
+    margin-left: 42%;
+    color: purple;
 }
